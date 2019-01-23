@@ -1,0 +1,22 @@
+{
+  "name": "CocoaEx",
+  "version": "0.1.0",
+  "summary": "A short description of CocoaEx.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Nicholas Lau/CocoaEx",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nicholas Lau": "nicholas.ck.lau@gtomato.com"
+  },
+  "source": {
+    "git": "https://github.com/Nicholas Lau/CocoaEx.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CocoaEx/Classes/**/*"
+}

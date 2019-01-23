@@ -1,0 +1,6 @@
+framework module CocoaEx {
+  umbrella header "CocoaEx-umbrella.h"
+
+  export *
+  module * { export * }
+}

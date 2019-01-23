@@ -1,0 +1,16 @@
+PODS:
+  - CocoaEx (0.1.0)
+
+DEPENDENCIES:
+  - CocoaEx (from `../`)
+
+EXTERNAL SOURCES:
+  CocoaEx:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaEx: eaae7ac74e6a0bc3bfe575819cfb99875be4a769
+
+PODFILE CHECKSUM: c21fd79d4dd0cc5f795fa3d8a633a0f1263b3d44
+
+COCOAPODS: 1.5.3
