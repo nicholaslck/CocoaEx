@@ -13,10 +13,10 @@
 
 /* Begin PBXFileReference section */
 		0938E26F39978B178DD790F5 /* Pods_CocoaEx_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaEx_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		094BF57AF9AF0C0253F8AFA6 /* CocoaEx.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CocoaEx.podspec; path = ../CocoaEx.podspec; sourceTree = "<group>"; };
-		21366BEC5B6BC06473B4C088 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		094BF57AF9AF0C0253F8AFA6 /* CocoaEx.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CocoaEx.podspec; path = ../CocoaEx.podspec; sourceTree = "<group>"; };
+		21366BEC5B6BC06473B4C088 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4C938E9EFB1F6BB6D85E9D2A /* Pods-CocoaEx_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaEx_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaEx_Tests/Pods-CocoaEx_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		55A0144B4712174B52E3D294 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		55A0144B4712174B52E3D294 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* CocoaEx_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaEx_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -130,12 +130,9 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7QP29GGW45;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -331,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E25E808970BD8347517BD85F /* Pods-CocoaEx_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7QP29GGW45;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -353,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C938E9EFB1F6BB6D85E9D2A /* Pods-CocoaEx_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7QP29GGW45;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

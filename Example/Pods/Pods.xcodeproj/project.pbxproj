@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		117D70162AD5BEDE4077C6C515975A51 /* CocoaEx-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 852AFB19EEA1C6AEE0D3AB1E48F13320 /* CocoaEx-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C070EC14680CC68CBAAB2989609E222 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA32EA28D387014A31BD841C5063305 /* ReplaceMe.swift */; };
+		185598E410F9377654CFD7E9FA5BE802 /* UITableView+CocoaEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C68E27299A60A14E26DFB2F0AF379 /* UITableView+CocoaEx.swift */; };
+		5B31852A46A5900C7BBADFC3C6D62F5C /* UIView+CocoaEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED6A643DF17E38AE7F3E8F73925D2E7 /* UIView+CocoaEx.swift */; };
 		64B3A9B06D6229E765615D5EA6A9EADC /* Pods-CocoaEx_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5830EC8C0FB27198F946B90D5B2AF5D1 /* Pods-CocoaEx_Tests-dummy.m */; };
-		69153ABB294BBBDE3A22889D8D2E76A6 /* CocoaEx-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B8373F0C1A077363E9DA09E14EC220 /* CocoaEx-dummy.m */; };
-		6BB0A7286A244F9B04AFF299C099B691 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		730617BB070A5FF2A2CA5107BEBFE15C /* CocoaEx-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3BE63AD19321E240BF47D883E6AB10 /* CocoaEx-dummy.m */; };
+		76CC2557F713F5102E1C38637D5A1075 /* UIButton+CocoaEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = F519090192C2B1B1084F1A2DA222455E /* UIButton+CocoaEx.swift */; };
+		7FDF5E26383EFB3E8AF507FDF569A80C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		84B90644860871594B7B75CAA8091837 /* FileManager+CocoaEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E8A242E215F13FBED4E8640BCFC9B9 /* FileManager+CocoaEx.swift */; };
+		902964EEBFB1110DCF7FBEC7E8B38AB4 /* String+CocoaEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E45183EA26C49BBA81D1A9D28CBC34 /* String+CocoaEx.swift */; };
+		906841FBA96B1029433582C878DC7D9E /* UIDevice+CocoaEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7255BBC46092FA0BC400E3A1A2FD75 /* UIDevice+CocoaEx.swift */; };
+		9F49D96F03E3E2A0FC0C37A79DB8E6FA /* UICollectionView+CocoaEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920F6456635B84C665638659F7730B3F /* UICollectionView+CocoaEx.swift */; };
+		A68E504CE17D51FF876A9CA46CE8B300 /* UIImage+CocoaEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A490666D3BACA146993980BF8ED6A1 /* UIImage+CocoaEx.swift */; };
 		AA98742933B670295A800ED810E1C244 /* Pods-CocoaEx_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 576A4EC87D540F2A794126888E56615B /* Pods-CocoaEx_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54AC78E13EC20763FFB1EF25BB32EA4 /* CocoaEx-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5A874A5309EBEBDE110B08EB7321457 /* CocoaEx-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6180436273A3E11D8721E9B2733AB8E /* UIColor+CocoaEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A28C72C13BAEF3623D7DD22FD0617 /* UIColor+CocoaEx.swift */; };
 		FCDC31E883E3446B43133136CBB951A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		FFE4DB00694387846CC7DFCD6F98C07D /* Bundle+CocoaEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55EB804279DD4E4125446B734CBBA3 /* Bundle+CocoaEx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,39 +30,56 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4044D30D71C7B90A21F22FE9D44BC410;
+			remoteGlobalIDString = CF498747D2D05F89C440287905CF6921;
 			remoteInfo = CocoaEx;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01E45183EA26C49BBA81D1A9D28CBC34 /* String+CocoaEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+CocoaEx.swift"; path = "CocoaEx/Classes/String+CocoaEx.swift"; sourceTree = "<group>"; };
+		040DCFFAB6D71ECC45C85143A9C45C8A /* CocoaEx.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CocoaEx.podspec; sourceTree = "<group>"; };
 		0ED167829959408537359F749AD619B4 /* Pods-CocoaEx_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaEx_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		16B06BAF09EFAC3BCE34CB7EEFECB8BD /* CocoaEx.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaEx.xcconfig; sourceTree = "<group>"; };
-		2CA32EA28D387014A31BD841C5063305 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CocoaEx/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		1411BC5BEE79AD15C5EB79F1367AE5C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6C68E27299A60A14E26DFB2F0AF379 /* UITableView+CocoaEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+CocoaEx.swift"; path = "CocoaEx/Classes/UITableView+CocoaEx.swift"; sourceTree = "<group>"; };
+		1F8A28C72C13BAEF3623D7DD22FD0617 /* UIColor+CocoaEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+CocoaEx.swift"; path = "CocoaEx/Classes/UIColor+CocoaEx.swift"; sourceTree = "<group>"; };
+		297871C501E1966880C8AAD08D45CF25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3B344780E128AE9634622FF07B07A1F2 /* Pods-CocoaEx_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CocoaEx_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		439CBC2AB751E2EC47F94364C0ABEE73 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E8A242E215F13FBED4E8640BCFC9B9 /* FileManager+CocoaEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+CocoaEx.swift"; path = "CocoaEx/Classes/FileManager+CocoaEx.swift"; sourceTree = "<group>"; };
 		576A4EC87D540F2A794126888E56615B /* Pods-CocoaEx_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CocoaEx_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5830EC8C0FB27198F946B90D5B2AF5D1 /* Pods-CocoaEx_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CocoaEx_Tests-dummy.m"; sourceTree = "<group>"; };
-		58A8D0C6B684BEC800D9FD3FBA441046 /* CocoaEx-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaEx-prefix.pch"; sourceTree = "<group>"; };
 		62E6215368BBD7ED812369CC25A5CE6C /* Pods-CocoaEx_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CocoaEx_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		65467C44CD005DAB1132C34419D2C9C2 /* Pods_CocoaEx_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CocoaEx_Tests.framework; path = "Pods-CocoaEx_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65467C44CD005DAB1132C34419D2C9C2 /* Pods_CocoaEx_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoaEx_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F999A30915A4F8F6441FB0D05FC2EEB /* Pods-CocoaEx_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CocoaEx_Tests.modulemap"; sourceTree = "<group>"; };
-		852AFB19EEA1C6AEE0D3AB1E48F13320 /* CocoaEx-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaEx-umbrella.h"; sourceTree = "<group>"; };
-		8768868C0A3648EDE7CC938818D6570E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7E3BE63AD19321E240BF47D883E6AB10 /* CocoaEx-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaEx-dummy.m"; sourceTree = "<group>"; };
+		8D85091F85FE98B6034B04442DDEE8BE /* CocoaEx-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaEx-prefix.pch"; sourceTree = "<group>"; };
+		920F6456635B84C665638659F7730B3F /* UICollectionView+CocoaEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+CocoaEx.swift"; path = "CocoaEx/Classes/UICollectionView+CocoaEx.swift"; sourceTree = "<group>"; };
 		930604FAA9B02235BC576EC1EAAF141E /* Pods-CocoaEx_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaEx_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96AA247F8972559611AA87ACF6D4D7D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		99807A3D65F45F4005171A0EFA67E38A /* Pods-CocoaEx_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CocoaEx_Tests-resources.sh"; sourceTree = "<group>"; };
-		B8B8373F0C1A077363E9DA09E14EC220 /* CocoaEx-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaEx-dummy.m"; sourceTree = "<group>"; };
-		BF77510757D954D20F51485D27566ADF /* CocoaEx.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CocoaEx.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D4CFA4F1137AF06F04F45D3A10316F9A /* CocoaEx.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaEx.modulemap; sourceTree = "<group>"; };
-		D5599284573196D23EF3BD9DE4242FB0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9ED6A643DF17E38AE7F3E8F73925D2E7 /* UIView+CocoaEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+CocoaEx.swift"; path = "CocoaEx/Classes/UIView+CocoaEx.swift"; sourceTree = "<group>"; };
+		B5A874A5309EBEBDE110B08EB7321457 /* CocoaEx-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaEx-umbrella.h"; sourceTree = "<group>"; };
+		BA55EB804279DD4E4125446B734CBBA3 /* Bundle+CocoaEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+CocoaEx.swift"; path = "CocoaEx/Classes/Bundle+CocoaEx.swift"; sourceTree = "<group>"; };
+		BC4C6BD57FE79C5BA740DC9F3CC487E6 /* CocoaEx.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaEx.modulemap; sourceTree = "<group>"; };
+		C4A490666D3BACA146993980BF8ED6A1 /* UIImage+CocoaEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+CocoaEx.swift"; path = "CocoaEx/Classes/UIImage+CocoaEx.swift"; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DD95739B18F56895B2CB768EA504057B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7255BBC46092FA0BC400E3A1A2FD75 /* UIDevice+CocoaEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+CocoaEx.swift"; path = "CocoaEx/Classes/UIDevice+CocoaEx.swift"; sourceTree = "<group>"; };
 		E4612FB61A1D720C42AA01D38A9BB2F1 /* Pods-CocoaEx_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CocoaEx_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FC02DE35A15763A0CB139B039B145B69 /* CocoaEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaEx.framework; path = CocoaEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CE5307FF7978144CCD9F842DC11115 /* CocoaEx.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaEx.xcconfig; sourceTree = "<group>"; };
+		F519090192C2B1B1084F1A2DA222455E /* UIButton+CocoaEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+CocoaEx.swift"; path = "CocoaEx/Classes/UIButton+CocoaEx.swift"; sourceTree = "<group>"; };
+		FC02DE35A15763A0CB139B039B145B69 /* CocoaEx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaEx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		17FFBA70A22ADF1886B18A48036C2A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FDF5E26383EFB3E8AF507FDF569A80C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8E65AB13853CDFB6873BEA7A9FCD74F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,17 +88,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD80CD7E8B8916F5BDBA3E09AB2B38C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6BB0A7286A244F9B04AFF299C099B691 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FD5B5126A0038733600816357BA3177 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBD87A21C953D15446C88D241E4B4CF4 /* CocoaEx */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		36CD7B6C418AA8A5D2BBBC5F60511287 /* Pods-CocoaEx_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +115,20 @@
 			);
 			name = "Pods-CocoaEx_Tests";
 			path = "Target Support Files/Pods-CocoaEx_Tests";
+			sourceTree = "<group>";
+		};
+		3C6A15B55398D1995C17F6EAA0B14305 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC4C6BD57FE79C5BA740DC9F3CC487E6 /* CocoaEx.modulemap */,
+				E8CE5307FF7978144CCD9F842DC11115 /* CocoaEx.xcconfig */,
+				7E3BE63AD19321E240BF47D883E6AB10 /* CocoaEx-dummy.m */,
+				8D85091F85FE98B6034B04442DDEE8BE /* CocoaEx-prefix.pch */,
+				B5A874A5309EBEBDE110B08EB7321457 /* CocoaEx-umbrella.h */,
+				1411BC5BEE79AD15C5EB79F1367AE5C9 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CocoaEx";
 			sourceTree = "<group>";
 		};
 		44D5347904CF754D6785B84253F2574A /* iOS */ = {
@@ -120,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D9564FC718F17C1CFF01D7F3E73747BD /* Development Pods */,
+				0FD5B5126A0038733600816357BA3177 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				58F63EF0C96886CA0A9FA59F8E4B6544 /* Products */,
 				72989EDA6F75AD4D8F8268EC95807E33 /* Targets Support Files */,
@@ -135,57 +175,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CF201C6354CBDB26B30B9FAA8269693F /* CocoaEx */ = {
+		E1445AD093259AA5A3EDC12250E0CE88 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2CA32EA28D387014A31BD841C5063305 /* ReplaceMe.swift */,
-				E4644D954644FE089AA6469656D74FFF /* Pod */,
-				EE9208DC53DAFD39AA6C85D0C5518FA5 /* Support Files */,
+				040DCFFAB6D71ECC45C85143A9C45C8A /* CocoaEx.podspec */,
+				96AA247F8972559611AA87ACF6D4D7D5 /* LICENSE */,
+				297871C501E1966880C8AAD08D45CF25 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FBD87A21C953D15446C88D241E4B4CF4 /* CocoaEx */ = {
+			isa = PBXGroup;
+			children = (
+				BA55EB804279DD4E4125446B734CBBA3 /* Bundle+CocoaEx.swift */,
+				56E8A242E215F13FBED4E8640BCFC9B9 /* FileManager+CocoaEx.swift */,
+				01E45183EA26C49BBA81D1A9D28CBC34 /* String+CocoaEx.swift */,
+				F519090192C2B1B1084F1A2DA222455E /* UIButton+CocoaEx.swift */,
+				920F6456635B84C665638659F7730B3F /* UICollectionView+CocoaEx.swift */,
+				1F8A28C72C13BAEF3623D7DD22FD0617 /* UIColor+CocoaEx.swift */,
+				DE7255BBC46092FA0BC400E3A1A2FD75 /* UIDevice+CocoaEx.swift */,
+				C4A490666D3BACA146993980BF8ED6A1 /* UIImage+CocoaEx.swift */,
+				1D6C68E27299A60A14E26DFB2F0AF379 /* UITableView+CocoaEx.swift */,
+				9ED6A643DF17E38AE7F3E8F73925D2E7 /* UIView+CocoaEx.swift */,
+				E1445AD093259AA5A3EDC12250E0CE88 /* Pod */,
+				3C6A15B55398D1995C17F6EAA0B14305 /* Support Files */,
 			);
 			name = CocoaEx;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		D9564FC718F17C1CFF01D7F3E73747BD /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CF201C6354CBDB26B30B9FAA8269693F /* CocoaEx */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E4644D954644FE089AA6469656D74FFF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				BF77510757D954D20F51485D27566ADF /* CocoaEx.podspec */,
-				8768868C0A3648EDE7CC938818D6570E /* LICENSE */,
-				D5599284573196D23EF3BD9DE4242FB0 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EE9208DC53DAFD39AA6C85D0C5518FA5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D4CFA4F1137AF06F04F45D3A10316F9A /* CocoaEx.modulemap */,
-				16B06BAF09EFAC3BCE34CB7EEFECB8BD /* CocoaEx.xcconfig */,
-				B8B8373F0C1A077363E9DA09E14EC220 /* CocoaEx-dummy.m */,
-				58A8D0C6B684BEC800D9FD3FBA441046 /* CocoaEx-prefix.pch */,
-				852AFB19EEA1C6AEE0D3AB1E48F13320 /* CocoaEx-umbrella.h */,
-				439CBC2AB751E2EC47F94364C0ABEE73 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CocoaEx";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9780CF9BC9607684B28CEE52CDAF4064 /* Headers */ = {
+		47F1321F659BC3B425846C8510A76040 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				117D70162AD5BEDE4077C6C515975A51 /* CocoaEx-umbrella.h in Headers */,
+				B54AC78E13EC20763FFB1EF25BB32EA4 /* CocoaEx-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,24 +227,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4044D30D71C7B90A21F22FE9D44BC410 /* CocoaEx */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AAD075F79E126312D0DEEAF04A1D815E /* Build configuration list for PBXNativeTarget "CocoaEx" */;
-			buildPhases = (
-				9780CF9BC9607684B28CEE52CDAF4064 /* Headers */,
-				F5E563E987362DA712DCE271851131A5 /* Sources */,
-				FD80CD7E8B8916F5BDBA3E09AB2B38C3 /* Frameworks */,
-				3417D91B6B3534223072692E56E1668D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CocoaEx;
-			productName = CocoaEx;
-			productReference = FC02DE35A15763A0CB139B039B145B69 /* CocoaEx.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		459F9488D802A84EB65D10EC5B33CB58 /* Pods-CocoaEx_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA48601E8ED4E0EE5081BBF53DFC48C2 /* Build configuration list for PBXNativeTarget "Pods-CocoaEx_Tests" */;
@@ -235,6 +244,24 @@
 			name = "Pods-CocoaEx_Tests";
 			productName = "Pods-CocoaEx_Tests";
 			productReference = 65467C44CD005DAB1132C34419D2C9C2 /* Pods_CocoaEx_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CF498747D2D05F89C440287905CF6921 /* CocoaEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E725AC71813FEE67BCC90DEF33830E7 /* Build configuration list for PBXNativeTarget "CocoaEx" */;
+			buildPhases = (
+				47F1321F659BC3B425846C8510A76040 /* Headers */,
+				D0F2232458FB06C997927735C6C6D415 /* Sources */,
+				17FFBA70A22ADF1886B18A48036C2A74 /* Frameworks */,
+				8B99FF1A73007D4A73C3C3BED1E331F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaEx;
+			productName = CocoaEx;
+			productReference = FC02DE35A15763A0CB139B039B145B69 /* CocoaEx.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -258,14 +285,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4044D30D71C7B90A21F22FE9D44BC410 /* CocoaEx */,
+				CF498747D2D05F89C440287905CF6921 /* CocoaEx */,
 				459F9488D802A84EB65D10EC5B33CB58 /* Pods-CocoaEx_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3417D91B6B3534223072692E56E1668D /* Resources */ = {
+		8B99FF1A73007D4A73C3C3BED1E331F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,20 +309,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D0F2232458FB06C997927735C6C6D415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE4DB00694387846CC7DFCD6F98C07D /* Bundle+CocoaEx.swift in Sources */,
+				730617BB070A5FF2A2CA5107BEBFE15C /* CocoaEx-dummy.m in Sources */,
+				84B90644860871594B7B75CAA8091837 /* FileManager+CocoaEx.swift in Sources */,
+				902964EEBFB1110DCF7FBEC7E8B38AB4 /* String+CocoaEx.swift in Sources */,
+				76CC2557F713F5102E1C38637D5A1075 /* UIButton+CocoaEx.swift in Sources */,
+				9F49D96F03E3E2A0FC0C37A79DB8E6FA /* UICollectionView+CocoaEx.swift in Sources */,
+				D6180436273A3E11D8721E9B2733AB8E /* UIColor+CocoaEx.swift in Sources */,
+				906841FBA96B1029433582C878DC7D9E /* UIDevice+CocoaEx.swift in Sources */,
+				A68E504CE17D51FF876A9CA46CE8B300 /* UIImage+CocoaEx.swift in Sources */,
+				185598E410F9377654CFD7E9FA5BE802 /* UITableView+CocoaEx.swift in Sources */,
+				5B31852A46A5900C7BBADFC3C6D62F5C /* UIView+CocoaEx.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EBF4B9F3585EAB3B422F45F4A451E2B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				64B3A9B06D6229E765615D5EA6A9EADC /* Pods-CocoaEx_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5E563E987362DA712DCE271851131A5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69153ABB294BBBDE3A22889D8D2E76A6 /* CocoaEx-dummy.m in Sources */,
-				5C070EC14680CC68CBAAB2989609E222 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,15 +341,15 @@
 		E706E607B32D3620952011B196F04C6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CocoaEx;
-			target = 4044D30D71C7B90A21F22FE9D44BC410 /* CocoaEx */;
+			target = CF498747D2D05F89C440287905CF6921 /* CocoaEx */;
 			targetProxy = B9D0C5F794982958F364FDD963FE335F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0F48C156C2D73BC0E3DB224A08D0F761 /* Debug */ = {
+		3293164F7E3BDF63D4AA3DE1887B48D7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16B06BAF09EFAC3BCE34CB7EEFECB8BD /* CocoaEx.xcconfig */;
+			baseConfigurationReference = E8CE5307FF7978144CCD9F842DC11115 /* CocoaEx.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -335,7 +371,39 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41EA06018D7A1E5B23F4299F63D7932F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CE5307FF7978144CCD9F842DC11115 /* CocoaEx.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaEx/CocoaEx-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaEx/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaEx/CocoaEx.modulemap";
+				PRODUCT_MODULE_NAME = CocoaEx;
+				PRODUCT_NAME = CocoaEx;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -408,38 +476,6 @@
 			};
 			name = Debug;
 		};
-		525BB588FB3E1D70EFBCC02A8B4BAB0D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16B06BAF09EFAC3BCE34CB7EEFECB8BD /* CocoaEx.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaEx/CocoaEx-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaEx/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CocoaEx/CocoaEx.modulemap";
-				PRODUCT_MODULE_NAME = CocoaEx;
-				PRODUCT_NAME = CocoaEx;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -495,8 +531,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -581,11 +616,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAD075F79E126312D0DEEAF04A1D815E /* Build configuration list for PBXNativeTarget "CocoaEx" */ = {
+		3E725AC71813FEE67BCC90DEF33830E7 /* Build configuration list for PBXNativeTarget "CocoaEx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F48C156C2D73BC0E3DB224A08D0F761 /* Debug */,
-				525BB588FB3E1D70EFBCC02A8B4BAB0D /* Release */,
+				41EA06018D7A1E5B23F4299F63D7932F /* Debug */,
+				3293164F7E3BDF63D4AA3DE1887B48D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
